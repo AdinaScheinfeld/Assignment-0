@@ -1,17 +1,14 @@
-function sumOfMinimumAndMaximum(nums) {
-  // Insert code here;
+let sumOfMinimumAndMaximum = nums => {
 
-	var max = nums[0];
-	var min = nums[0];
+	let min = nums[0];
+	let max = nums[0];
 
-	for(var i=0; i<nums.length; i++){
-
-		if(nums[i] > max)
-			max = nums[i];
-
-		else if(nums[i] < min)
-			min = nums[i];
-	}
+	nums.forEach(num => {
+		if(num<min)
+			min = num;
+		else if(num>max)
+			max = num;
+	});
 	return max + min;
 }
 

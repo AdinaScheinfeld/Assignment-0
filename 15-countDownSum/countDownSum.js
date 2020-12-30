@@ -1,6 +1,5 @@
 class MySolution {
-  countDownSum(num) {
-    // Insert code here;
+  countDownSum = num => {
 
 	if(num === 1)
 		return num;

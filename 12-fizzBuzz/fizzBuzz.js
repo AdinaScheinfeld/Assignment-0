@@ -1,9 +1,8 @@
-function fizzBuzz(start, end) {
-  // Insert code here;
+let fizzBuzz = (start, end) => {
 
 	const result = [];
 
-	for(var i=start; i<=end; i++){
+	for(let i=start; i<=end; i++){
 		if(i%3 === 0 && i%5 ===0)
 			result.push('FizzBuzz');
 		else if(i%3 === 0)

@@ -1,10 +1,9 @@
-function setUnionOfAnyAmountOfSets(...args) {
-  // Insert code here;
+let setUnionOfAnyAmountOfSets = (...args) => {
 
-	let mySet = new Set();
+	const mySet = new Set();
 
-	for(var i=0; i<args.length; i++){
-		for(var arg of args[i]){
+	for(let i=0; i<args.length; i++){
+		for(let arg of args[i]){
 			mySet.add(arg);
 		}
 	}

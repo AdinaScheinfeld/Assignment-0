@@ -1,9 +1,8 @@
-function countOfAllBooleans(arr) {
-  // Insert code here;
+let countOfAllBooleans = arr => {
 
 	let count = 0;
 
-	for(var i=0; i<arr.length; i++)
+	for(let i=0; i<arr.length; i++)
 		if(arr[i] === false || arr[i] === true)
 			count++;
 	

@@ -1,7 +1,4 @@
-function greetFriend(name) {
-  // Insert code here;
-	return "Hello, " + name + "!";
-}
+let greetFriend = name => "Hello, " + name + "!";
 
 // Do not edit this line;
 module.exports = greetFriend;

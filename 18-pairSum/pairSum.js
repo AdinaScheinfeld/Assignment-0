@@ -1,12 +1,11 @@
-function pairSum(nums, target) {
-  // Insert code here;
+let pairSum = (nums, target) => {
 
 	if(nums.length <= 1)
 		throw 'Length of array is <= 1';
 
-	let mySet = new Set();
+	const mySet = new Set();
 
-	for(var num of nums){
+	for(let num of nums){
 		if(mySet.has(target-num))
 			return true;
 		else

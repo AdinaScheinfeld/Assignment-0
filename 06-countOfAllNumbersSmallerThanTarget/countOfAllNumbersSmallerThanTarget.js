@@ -1,9 +1,8 @@
-function countOfAllNumbersSmallerThanTarget(nums, target) {
-  // Insert code here;
+let countOfAllNumbersSmallerThanTarget = (nums, target) => {
 
 	let count = 0;
 
-	for(var i=0; i<nums.length; i++)
+	for(let i=0; i<nums.length; i++)
 		if(nums[i] < target)
 			count++;
 

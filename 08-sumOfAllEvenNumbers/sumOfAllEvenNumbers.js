@@ -1,9 +1,8 @@
-function sumOfAllEvenNumbers(nums) {
-  // Insert code here;
+let sumOfAllEvenNumbers = nums => {
 
 	let count = 0;
 
-	for(var i=0; i<nums.length; i++)
+	for(let i=0; i<nums.length; i++)
 		if(nums[i] % 2 === 0)
 			count++;
 

@@ -1,9 +1,8 @@
-function frequencyCounter(word) {
-  // Insert code here;
+frequencyCounter = word => {
 
-	let result = {};
+	const result = {};
 
-	for(var i=0; i<word.length; i++){
+	for(let i=0; i<word.length; i++){
 		if(!result[word[i]])
 			result[word[i]] = 1;
 		else
