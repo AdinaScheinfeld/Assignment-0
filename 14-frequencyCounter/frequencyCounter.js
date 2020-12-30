@@ -1,4 +1,4 @@
-frequencyCounter = word => {
+const frequencyCounter = word => {
 
 	const result = {};
 

@@ -1,4 +1,4 @@
-let setUnionOfAnyAmountOfSets = (...args) => {
+const setUnionOfAnyAmountOfSets = (...args) => {
 
 	const mySet = new Set();
 

@@ -1,4 +1,4 @@
-let fizzBuzz = (start, end) => {
+const fizzBuzz = (start, end) => {
 
 	const result = [];
 

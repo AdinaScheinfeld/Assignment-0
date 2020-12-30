@@ -1,4 +1,4 @@
-let productOfAnyAmountOfNumbers = (...args) => {
+const productOfAnyAmountOfNumbers = (...args) => {
 
 	let product = 1;
 

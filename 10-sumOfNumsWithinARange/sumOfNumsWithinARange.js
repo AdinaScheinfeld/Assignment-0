@@ -1,4 +1,4 @@
-let sumOfNumsWithinARange = (nums, start, end) => {
+const sumOfNumsWithinARange = (nums, start, end) => {
 
 	let count = 0;
 

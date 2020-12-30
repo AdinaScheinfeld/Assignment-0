@@ -1,4 +1,4 @@
-let countOfAllIndexMatchingNumbers = nums => {
+const countOfAllIndexMatchingNumbers = nums => {
 
 	let count = 0; 
 

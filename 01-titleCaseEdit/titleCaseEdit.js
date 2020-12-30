@@ -1,4 +1,4 @@
-let titleCaseEdit = title => {
+const titleCaseEdit = title => {
 
 	title = title.toLowerCase();
 

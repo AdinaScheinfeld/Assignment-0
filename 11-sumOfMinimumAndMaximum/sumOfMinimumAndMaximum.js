@@ -1,4 +1,4 @@
-let sumOfMinimumAndMaximum = nums => {
+const sumOfMinimumAndMaximum = nums => {
 
 	let min = nums[0];
 	let max = nums[0];

@@ -1,4 +1,4 @@
-let countOfAllNumbersSmallerThanTarget = (nums, target) => {
+const countOfAllNumbersSmallerThanTarget = (nums, target) => {
 
 	let count = 0;
 

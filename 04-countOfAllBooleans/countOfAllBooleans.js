@@ -1,4 +1,4 @@
-let countOfAllBooleans = arr => {
+const countOfAllBooleans = arr => {
 
 	let count = 0;
 

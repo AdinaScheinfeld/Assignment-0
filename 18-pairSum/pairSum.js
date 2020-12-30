@@ -1,4 +1,4 @@
-let pairSum = (nums, target) => {
+const pairSum = (nums, target) => {
 
 	if(nums.length <= 1)
 		throw 'Length of array is <= 1';

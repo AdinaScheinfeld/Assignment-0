@@ -1,4 +1,4 @@
-let sumOfAllEvenNumbers = nums => {
+const sumOfAllEvenNumbers = nums => {
 
 	let count = 0;
 
